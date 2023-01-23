@@ -4,12 +4,13 @@
 
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
-		"secato.ci-snippets",
 		"rexshi.phpdoc-comment-vscode-plugin",
-		"small.php-ci"
+		"small.php-ci",
+		"anish-m.ci-snippets2"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
-		"bmewburn.vscode-intelephense-client"
+		"secato.ci-snippets", // This is the oldest one, use "anish-m.ci-snippets2" instead
+		"bmewburn.vscode-intelephense-client" // this will conflict with "small.php-ci"
 	]
 }
